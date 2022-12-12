@@ -1,0 +1,96 @@
+32 0.25
+ 
+32 0.25
+ 
+32 0.25
+ 
+
+Test set super: Average loss: 1.1251,             Accuracy: 8815/10000 (88%)
+
+ 
+accuracy | 0.875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 87.5
+
+eps: 0.1 | pred en %: 82.8125
+
+eps: 0.3 | pred en %: 65.625
+
+eps: 0.5 | pred en %: 21.875
+
+eps: 0.7 | pred en %: 4.6875
+
+eps: 0.9 | pred en %: 0.0
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.828125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.65625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.21875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.046875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.0
+ 
+32 0.5
+ 
+
+Test set super: Average loss: 2.2765,             Accuracy: 2589/10000 (26%)
+
+ 
+accuracy | 0.28125
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 28.125
+
+eps: 0.1 | pred en %: 12.5
+
+eps: 0.3 | pred en %: 4.6875
+
+eps: 0.5 | pred en %: 4.6875
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 6.25
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.28125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.0
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.046875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.0
+ 
+32 0.75
+ 
+
+Test set super: Average loss: 2.3027,             Accuracy: 1002/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+32 1.0
+ 

@@ -1,0 +1,840 @@
+48 0.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.306738
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.538831
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.949157
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.738376
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.393343
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.112006
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.143992
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.171327
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.161076
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.228571
+
+Test set super: Average loss: 0.1587,             Accuracy: 9547/10000 (95%)
+
+ 
+accuracy | 0.96875
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 96.875
+
+eps: 0.9 | pred en %: 87.5
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.96875
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.859375
+ 
+48 0.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.306207
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.117670
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.480328
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.961583
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.575784
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.484499
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.293633
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.232613
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.284050
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.174117
+
+Test set super: Average loss: 0.1783,             Accuracy: 9507/10000 (95%)
+
+ 
+accuracy | 0.96875
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 96.875
+
+eps: 0.9 | pred en %: 82.8125
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.96875
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.828125
+ 
+48 0.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302490
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.301187
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.309525
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302752
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.298831
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302813
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.301677
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.309026
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.301236
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.303523
+
+Test set super: Average loss: 2.3016,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.15625
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.15625
+ 
+48 1.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.303816
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.864681
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.325044
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.615604
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.434847
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.249841
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.075913
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.310231
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.095395
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.121271
+
+Test set super: Average loss: 0.1641,             Accuracy: 9498/10000 (95%)
+
+ 
+accuracy | 0.984375
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 96.875
+
+eps: 0.9 | pred en %: 96.875
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.984375
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.96875
+ 
+48 1.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.292708
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.118966
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.891941
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.601422
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.907207
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.619932
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.178497
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.177576
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.224047
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.166529
+
+Test set super: Average loss: 0.1557,             Accuracy: 9576/10000 (96%)
+
+ 
+accuracy | 0.984375
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 98.4375
+
+eps: 0.9 | pred en %: 90.625
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.984375
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.90625
+ 
+48 1.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.299542
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.300670
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1009/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.109375
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.109375
+ 
+56 0.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.338749
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.335281
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.683591
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.274415
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.287765
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.135026
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.161134
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.162775
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.061747
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.056998
+
+Test set super: Average loss: 0.1649,             Accuracy: 9525/10000 (95%)
+
+ 
+accuracy | 0.984375
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 98.4375
+
+eps: 0.9 | pred en %: 92.1875
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.984375
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.921875
+ 
+56 0.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.288270
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.193506
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.959989
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.468466
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.306583
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.176752
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.234924
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.169775
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.185268
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.132286
+
+Test set super: Average loss: 0.2136,             Accuracy: 9377/10000 (94%)
+
+ 
+accuracy | 0.96875
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 96.875
+
+eps: 0.9 | pred en %: 93.75
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.96875
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.9375
+ 
+56 0.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.264235
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.630621
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.815504
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.416793
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.376737
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.245571
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.046316
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.101093
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.042614
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.192400
+
+Test set super: Average loss: 0.1221,             Accuracy: 9645/10000 (96%)
+
+ 
+accuracy | 0.953125
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 95.3125
+
+eps: 0.9 | pred en %: 92.1875
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.953125
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.90625
+ 
+56 1.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.300124
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.103638
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.433789
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.480143
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.388081
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.112594
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.151197
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.211555
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.096776
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.088488
+
+Test set super: Average loss: 0.1622,             Accuracy: 9483/10000 (95%)
+
+ 
+accuracy | 1.0
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 100.0
+
+eps: 0.9 | pred en %: 95.3125
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 1.0
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.953125
+ 
+56 1.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.311764
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.833230
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.976425
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.716911
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.459820
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.361631
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.354014
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.248947
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.317333
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.300008
+
+Test set super: Average loss: 0.2230,             Accuracy: 9331/10000 (93%)
+
+ 
+accuracy | 0.96875
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 96.875
+
+eps: 0.9 | pred en %: 78.125
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.96875
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.78125
+ 
+56 1.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.294947
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302472
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.305281
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.293772
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.297758
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.304298
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.298420
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302919
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.297450
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.295175
+
+Test set super: Average loss: 2.3016,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.15625
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.15625
+ 
+64 0.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.390062
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.528235
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.575117
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.757049
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.578928
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.443190
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.260853
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.184005
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.276754
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.220855
+
+Test set super: Average loss: 0.1753,             Accuracy: 9483/10000 (95%)
+
+ 
+accuracy | 0.984375
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 98.4375
+
+eps: 0.9 | pred en %: 92.1875
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.984375
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.921875
+ 
+64 0.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.291589
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.588060
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.624826
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.598855
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.416215
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.205861
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.159089
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.193661
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.189103
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.121894
+
+Test set super: Average loss: 0.1312,             Accuracy: 9634/10000 (96%)
+
+ 
+accuracy | 0.984375
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 98.4375
+
+eps: 0.9 | pred en %: 76.5625
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.984375
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.765625
+ 
+64 0.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.280541
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 0.994845
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.326037
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.175782
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.188108
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.316823
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.117446
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.071332
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.144120
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.159717
+
+Test set super: Average loss: 0.1499,             Accuracy: 9541/10000 (95%)
+
+ 
+accuracy | 1.0
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 100.0
+
+eps: 0.9 | pred en %: 89.0625
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 1.0
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.90625
+ 
+64 1.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.273926
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.555459
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.826088
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.253115
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.260732
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.504951
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.245628
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.166794
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.290837
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.169613
+
+Test set super: Average loss: 0.1520,             Accuracy: 9551/10000 (96%)
+
+ 
+accuracy | 1.0
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 100.0
+
+eps: 0.9 | pred en %: 90.625
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 1.0
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.90625
+ 
+64 1.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.307745
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.286178
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.188008
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.559327
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.707311
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.291273
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.340125
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.448900
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.206237
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.153244
+
+Test set super: Average loss: 0.1897,             Accuracy: 9440/10000 (94%)
+
+ 
+accuracy | 0.984375
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 98.4375
+
+eps: 0.9 | pred en %: 96.875
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.984375
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.96875
+ 
+64 1.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.304650
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.255055
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.978107
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.480644
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 1.011081
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.438285
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.527352
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.341158
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.323792
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.744928
+
+Test set super: Average loss: 0.4600,             Accuracy: 8461/10000 (85%)
+
+ 
+accuracy | 0.875
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 87.5
+
+eps: 0.9 | pred en %: 81.25
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.875
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.8125
+ 
+72 0.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.313352
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.551087
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.981525
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.418446
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.241800
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.236339
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.108058
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.112136
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.148832
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.205829
+
+Test set super: Average loss: 0.1225,             Accuracy: 9638/10000 (96%)
+
+ 
+accuracy | 0.984375
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 96.875
+
+eps: 0.9 | pred en %: 89.0625
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.984375
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.890625
+ 
+72 0.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.285718
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.566812
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.643494
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.289970
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.277772
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.155148
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.356924
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.507250
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.190886
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.146559
+
+Test set super: Average loss: 0.1395,             Accuracy: 9573/10000 (96%)
+
+ 
+accuracy | 1.0
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 100.0
+
+eps: 0.9 | pred en %: 85.9375
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 1.0
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.859375
+ 
+72 0.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.316013
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.497364
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.667878
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.337618
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.317261
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.364380
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.101795
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.180875
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.204899
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.084634
+
+Test set super: Average loss: 0.1394,             Accuracy: 9581/10000 (96%)
+
+ 
+accuracy | 1.0
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 100.0
+
+eps: 0.9 | pred en %: 92.1875
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 1.0
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.921875
+ 
+72 1.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.406113
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.153381
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.917897
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.636719
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.870200
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.563923
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.313697
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.209816
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.313947
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.180802
+
+Test set super: Average loss: 0.2481,             Accuracy: 9270/10000 (93%)
+
+ 
+accuracy | 0.96875
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 96.875
+
+eps: 0.9 | pred en %: 73.4375
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.96875
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.734375
+ 
+72 1.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.321747
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.284747
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.540829
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.217966
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.257596
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.134849
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.099629
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.107589
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.126028
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.204129
+
+Test set super: Average loss: 0.1231,             Accuracy: 9630/10000 (96%)
+
+ 
+accuracy | 0.984375
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 98.4375
+
+eps: 0.9 | pred en %: 95.3125
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.984375
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.953125
+ 
+72 1.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.330147
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.502710
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.033112
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.549658
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.242963
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.138731
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.161964
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.316559
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.285431
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.238471
+
+Test set super: Average loss: 0.1403,             Accuracy: 9596/10000 (96%)
+
+ 
+accuracy | 0.9375
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 93.75
+
+eps: 0.9 | pred en %: 90.625
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.9375
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.90625
+ 
+80 0.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.328542
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.463968
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.413718
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.261441
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.114041
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.177593
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.259584
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.222836
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.132511
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.058764
+
+Test set super: Average loss: 0.1215,             Accuracy: 9646/10000 (96%)
+
+ 
+accuracy | 0.984375
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 96.875
+
+eps: 0.9 | pred en %: 67.1875
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.984375
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.671875
+ 
+80 0.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.349815
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.370500
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.557004
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.260942
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.236083
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.056648
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.149322
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.235798
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.122478
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.194813
+
+Test set super: Average loss: 0.1383,             Accuracy: 9596/10000 (96%)
+
+ 
+accuracy | 0.96875
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 96.875
+
+eps: 0.9 | pred en %: 90.625
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.96875
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.90625
+ 
+80 0.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.332722
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.153737
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.696876
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.290522
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.327874
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.252214
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.217120
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.229226
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.082898
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.299820
+
+Test set super: Average loss: 0.1297,             Accuracy: 9605/10000 (96%)
+
+ 
+accuracy | 1.0
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 100.0
+
+eps: 0.9 | pred en %: 92.1875
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 1.0
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.921875
+ 
+80 1.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.297141
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.146894
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.446571
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.342214
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.197253
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.101495
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.257906
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.186325
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.315897
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.152230
+
+Test set super: Average loss: 0.1352,             Accuracy: 9575/10000 (96%)
+
+ 
+accuracy | 0.984375
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 98.4375
+
+eps: 0.9 | pred en %: 95.3125
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.984375
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.953125
+ 
+80 1.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.313156
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.305905
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.472512
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.345974
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.168456
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.295002
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.162529
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.168901
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.193257
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.141490
+
+Test set super: Average loss: 0.1378,             Accuracy: 9568/10000 (96%)
+
+ 
+accuracy | 0.9375
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 93.75
+
+eps: 0.9 | pred en %: 92.1875
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.9375
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.921875
+ 
+80 1.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.300706
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.287874
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302285
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.306605
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.299782
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.307837
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.290461
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.297893
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.300041
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.293467
+
+Test set super: Average loss: 2.3015,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.0 0.15625
+LinfDeepFoolAttack(steps=50, candidates=10, overshoot=0.02, loss=logits) 0.9 0.15625
+ 

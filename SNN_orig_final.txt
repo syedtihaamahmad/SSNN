@@ -1,0 +1,3613 @@
+32 0.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.307937
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.233291
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.986832
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.725322
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 1.080832
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.916731
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.819808
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.449396
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.312707
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.218705
+
+Test set super: Average loss: 0.3131,             Accuracy: 9178/10000 (92%)
+
+ 
+accuracy | 0.921875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 92.1875
+
+eps: 0.1 | pred en %: 90.625
+
+eps: 0.3 | pred en %: 68.75
+
+eps: 0.5 | pred en %: 26.5625
+
+eps: 0.7 | pred en %: 3.125
+
+eps: 0.9 | pred en %: 0.0
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.921875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.90625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.6875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.265625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.03125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.0
+ 
+32 0.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302585
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302786
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.292282
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.190788
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 1.793856
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 1.476927
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 1.350463
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 1.038750
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 1.139232
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.875584
+
+Test set super: Average loss: 0.7873,             Accuracy: 7679/10000 (77%)
+
+ 
+accuracy | 0.796875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 79.6875
+
+eps: 0.1 | pred en %: 57.8125
+
+eps: 0.3 | pred en %: 23.4375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 1.5625
+
+eps: 0.9 | pred en %: 0.0
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.796875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.578125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.234375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.0
+ 
+32 0.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.303919
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.300816
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.303290
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.308110
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.301975
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.305246
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.308518
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.297411
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.301982
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.306172
+
+Test set super: Average loss: 2.3018,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+32 1.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.300431
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.311198
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.309428
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302912
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.308439
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.303643
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.304838
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.301189
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.309963
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.306966
+
+Test set super: Average loss: 2.3016,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+32 1.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302585
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302585
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1028/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+32 1.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.304424
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302585
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1028/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+32 1.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302585
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302585
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1028/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+32 2.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302585
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302585
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1028/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+32 2.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.300652
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302585
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1028/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+40 0.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.305192
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.252353
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.549160
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.912478
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.628159
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.244325
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.152229
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.408110
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.185439
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.202412
+
+Test set super: Average loss: 0.2103,             Accuracy: 9359/10000 (94%)
+
+ 
+accuracy | 0.96875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 96.875
+
+eps: 0.1 | pred en %: 95.3125
+
+eps: 0.3 | pred en %: 59.375
+
+eps: 0.5 | pred en %: 7.8125
+
+eps: 0.7 | pred en %: 0.0
+
+eps: 0.9 | pred en %: 0.0
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.96875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.953125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.59375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.0
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.0
+ 
+40 0.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.301413
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.294041
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.276861
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.931224
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 1.961309
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 1.241964
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.916124
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.685063
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.490587
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.555495
+
+Test set super: Average loss: 0.4706,             Accuracy: 8720/10000 (87%)
+
+ 
+accuracy | 0.875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 87.5
+
+eps: 0.1 | pred en %: 78.125
+
+eps: 0.3 | pred en %: 59.375
+
+eps: 0.5 | pred en %: 31.25
+
+eps: 0.7 | pred en %: 1.5625
+
+eps: 0.9 | pred en %: 0.0
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.78125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.59375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.3125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.0
+ 
+40 0.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.303250
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.308775
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.307685
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.304726
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302173
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302737
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302290
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302867
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.303016
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.303071
+
+Test set super: Average loss: 2.3026,             Accuracy: 1032/10000 (10%)
+
+ 
+accuracy | 0.078125
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 7.8125
+
+eps: 0.1 | pred en %: 7.8125
+
+eps: 0.3 | pred en %: 7.8125
+
+eps: 0.5 | pred en %: 7.8125
+
+eps: 0.7 | pred en %: 7.8125
+
+eps: 0.9 | pred en %: 7.8125
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.078125
+ 
+40 1.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.303230
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.303104
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.301723
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.299270
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.309190
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.301354
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302252
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.303059
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302484
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.303206
+
+Test set super: Average loss: 2.3025,             Accuracy: 958/10000 (10%)
+
+ 
+accuracy | 0.078125
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 7.8125
+
+eps: 0.1 | pred en %: 7.8125
+
+eps: 0.3 | pred en %: 7.8125
+
+eps: 0.5 | pred en %: 7.8125
+
+eps: 0.7 | pred en %: 7.8125
+
+eps: 0.9 | pred en %: 7.8125
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.078125
+ 
+40 1.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.300626
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.304260
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.298902
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.301699
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.295083
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.296349
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.301007
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.299366
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.300120
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.304013
+
+Test set super: Average loss: 2.3016,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+40 1.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302708
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302585
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1028/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+40 1.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.299940
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.305823
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.308584
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.320023
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.301840
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.306592
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.300367
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.305581
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.290986
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.298611
+
+Test set super: Average loss: 2.3016,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+40 2.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.300428
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.299298
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.301732
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302938
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.303169
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302688
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.303379
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302685
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302681
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302270
+
+Test set super: Average loss: 2.3026,             Accuracy: 980/10000 (10%)
+
+ 
+accuracy | 0.09375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.09375
+ 
+40 2.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302585
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302585
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1028/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+48 0.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.312502
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.377144
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.587146
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.337185
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.189993
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.273569
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.225228
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.065333
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.178447
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.051290
+
+Test set super: Average loss: 0.1400,             Accuracy: 9583/10000 (96%)
+
+ 
+accuracy | 1.0
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 100.0
+
+eps: 0.1 | pred en %: 95.3125
+
+eps: 0.3 | pred en %: 78.125
+
+eps: 0.5 | pred en %: 12.5
+
+eps: 0.7 | pred en %: 0.0
+
+eps: 0.9 | pred en %: 0.0
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 1.0
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.953125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.78125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.0
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.0
+ 
+48 0.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.306011
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.307688
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.300954
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302993
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.306845
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.303742
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.290694
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.295354
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.300357
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.304308
+
+Test set super: Average loss: 2.3016,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+48 0.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.303843
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.308339
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.312011
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.307104
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.306052
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.298603
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.307957
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.304202
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1028/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+48 1.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.303153
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.306186
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1028/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+48 1.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.303128
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.301913
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.292818
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.306928
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.297205
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.301341
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.299204
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.292373
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.300097
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.309851
+
+Test set super: Average loss: 2.3014,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+48 1.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.295946
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.304281
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.303382
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.289928
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.312420
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302326
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.292224
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.306808
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.297303
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302134
+
+Test set super: Average loss: 2.3019,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+48 1.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302023
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.309790
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.306207
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.294758
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.309059
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.310167
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.306857
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.294324
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.308896
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.294454
+
+Test set super: Average loss: 2.3015,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+48 2.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.303323
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302585
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1028/10000 (10%)
+/home/tawm9/anaconda3/envs/SNNAA/lib/python3.6/site-packages/requests/__init__.py:104: RequestsDependencyWarning: urllib3 (1.26.11) or chardet (5.0.0)/charset_normalizer (2.0.12) doesn't match a supported version!
+  RequestsDependencyWarning)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+48 2.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302585
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302585
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1028/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+Traceback (most recent call last):
+  File "SNN_orig.py", line 358, in <module>
+    _, advs, success = attack(fmodel, images, labels, epsilons=epsilons)
+  File "/home/tawm9/anaconda3/envs/SNNAA/lib/python3.6/site-packages/foolbox/attacks/base.py", line 283, in __call__
+    xp = self.run(model, x, criterion, epsilon=epsilon, **kwargs)
+  File "/home/tawm9/anaconda3/envs/SNNAA/lib/python3.6/site-packages/foolbox/attacks/gradient_descent_base.py", line 155, in run
+    _, gradients = self.value_and_grad(loss_fn, x)
+  File "/home/tawm9/anaconda3/envs/SNNAA/lib/python3.6/site-packages/foolbox/attacks/gradient_descent_base.py", line 111, in value_and_grad
+    return ep.value_and_grad(loss_fn, x)
+  File "/home/tawm9/anaconda3/envs/SNNAA/lib/python3.6/site-packages/eagerpy/framework.py", line 360, in value_and_grad
+    return t.value_and_grad(f, *args, **kwargs)
+  File "/home/tawm9/anaconda3/envs/SNNAA/lib/python3.6/site-packages/eagerpy/tensor/tensor.py", line 553, in value_and_grad
+    return self._value_and_grad_fn(f, has_aux=False)(self, *args, **kwargs)
+  File "/home/tawm9/anaconda3/envs/SNNAA/lib/python3.6/site-packages/eagerpy/tensor/pytorch.py", line 505, in value_and_grad
+    loss = f(x, *args, **kwargs)
+  File "/home/tawm9/anaconda3/envs/SNNAA/lib/python3.6/site-packages/foolbox/attacks/gradient_descent_base.py", line 96, in loss_fn
+    logits = model(inputs)
+  File "/home/tawm9/anaconda3/envs/SNNAA/lib/python3.6/site-packages/foolbox/models/base.py", line 102, in __call__
+    z = ep.astensor(self._model(y.raw))
+  File "/home/tawm9/anaconda3/envs/SNNAA/lib/python3.6/site-packages/foolbox/models/pytorch.py", line 49, in _model
+    result = cast(torch.Tensor, model(x))
+  File "/home/tawm9/anaconda3/envs/SNNAA/lib/python3.6/site-packages/torch/nn/modules/module.py", line 550, in __call__
+    result = self.forward(*input, **kwargs)
+  File "SNN_orig.py", line 235, in forward
+    voltages = self.rsnn(x)
+  File "/home/tawm9/anaconda3/envs/SNNAA/lib/python3.6/site-packages/torch/nn/modules/module.py", line 550, in __call__
+    result = self.forward(*input, **kwargs)
+  File "SNN_orig.py", line 129, in forward
+    z = torch.flatten(z, 1)
+KeyboardInterrupt
+32 0.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.299390
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.858319
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.360675
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.998379
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.681762
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.386119
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.350311
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.151542
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.268147
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.337935
+
+Test set super: Average loss: 0.2094,             Accuracy: 9391/10000 (94%)
+
+ 
+accuracy | 0.328125
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 32.8125
+
+eps: 0.1 | pred en %: 17.1875
+
+eps: 0.3 | pred en %: 3.125
+
+eps: 0.5 | pred en %: 4.6875
+
+eps: 0.7 | pred en %: 1.5625
+
+eps: 0.9 | pred en %: 1.5625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.328125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.171875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.03125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.046875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.015625
+ 
+32 0.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.304435
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302585
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302855
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302561
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.301730
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302142
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302600
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.301833
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302547
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302300
+
+Test set super: Average loss: 2.3026,             Accuracy: 1028/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 10.9375
+
+eps: 0.1 | pred en %: 10.9375
+
+eps: 0.3 | pred en %: 10.9375
+
+eps: 0.5 | pred en %: 10.9375
+
+eps: 0.7 | pred en %: 10.9375
+
+eps: 0.9 | pred en %: 10.9375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+32 0.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.313743
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.281523
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.029135
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.840240
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 1.344781
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.881578
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.560883
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.394451
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.532190
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.335271
+
+Test set super: Average loss: 0.3779,             Accuracy: 8966/10000 (90%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 10.9375
+
+eps: 0.1 | pred en %: 10.9375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 6.25
+
+eps: 0.9 | pred en %: 7.8125
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.0625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.078125
+ 
+32 1.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302696
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302585
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1028/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+32 1.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302577
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.295370
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.178741
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.959795
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 1.485591
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 1.032899
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.874274
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.639298
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.643598
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.720339
+
+Test set super: Average loss: 0.6366,             Accuracy: 8165/10000 (82%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 10.9375
+
+eps: 0.1 | pred en %: 10.9375
+
+eps: 0.3 | pred en %: 10.9375
+
+eps: 0.5 | pred en %: 10.9375
+
+eps: 0.7 | pred en %: 10.9375
+
+eps: 0.9 | pred en %: 10.9375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+32 1.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.301838
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.303296
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.309885
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.292989
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.314553
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.303859
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1028/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+32 1.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.300313
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.301686
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.297337
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.290167
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.299348
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.299999
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.300983
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.297982
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.308867
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.294659
+
+Test set super: Average loss: 2.3015,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+32 2.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302585
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302585
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1028/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+32 2.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.296252
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302334
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.305305
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.305375
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.308380
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.298225
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.303846
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302110
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.293739
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.293862
+
+Test set super: Average loss: 2.3015,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+40 0.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.318727
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.290059
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.856407
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.776565
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.222534
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.118618
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.259228
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.168987
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.322873
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.268095
+
+Test set super: Average loss: 0.1436,             Accuracy: 9569/10000 (96%)
+
+ 
+accuracy | 0.921875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 92.1875
+
+eps: 0.1 | pred en %: 78.125
+
+eps: 0.3 | pred en %: 51.5625
+
+eps: 0.5 | pred en %: 6.25
+
+eps: 0.7 | pred en %: 0.0
+
+eps: 0.9 | pred en %: 0.0
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.921875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.78125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.515625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.0625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.0
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.0
+ 
+40 0.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.313838
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.742553
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.991922
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.639618
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.151556
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.310253
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.251936
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.216838
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.237681
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.157438
+
+Test set super: Average loss: 0.1524,             Accuracy: 9530/10000 (95%)
+
+ 
+accuracy | 0.421875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 42.1875
+
+eps: 0.1 | pred en %: 25.0
+
+eps: 0.3 | pred en %: 7.8125
+
+eps: 0.5 | pred en %: 7.8125
+
+eps: 0.7 | pred en %: 3.125
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.421875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.25
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.03125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.09375
+ 
+40 0.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.304083
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.143120
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.779157
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.447828
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 1.094675
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.870129
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.523096
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.342666
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.313519
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.263860
+
+Test set super: Average loss: 0.2785,             Accuracy: 9229/10000 (92%)
+
+ 
+accuracy | 0.4375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 43.75
+
+eps: 0.1 | pred en %: 37.5
+
+eps: 0.3 | pred en %: 21.875
+
+eps: 0.5 | pred en %: 10.9375
+
+eps: 0.7 | pred en %: 7.8125
+
+eps: 0.9 | pred en %: 4.6875
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.4375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.21875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.046875
+ 
+40 1.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.303010
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.864053
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.434594
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.725795
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.410244
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.330762
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.150996
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.227879
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.265034
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.201800
+
+Test set super: Average loss: 0.2188,             Accuracy: 9380/10000 (94%)
+
+ 
+accuracy | 0.015625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 1.5625
+
+eps: 0.1 | pred en %: 1.5625
+
+eps: 0.3 | pred en %: 1.5625
+
+eps: 0.5 | pred en %: 1.5625
+
+eps: 0.7 | pred en %: 1.5625
+
+eps: 0.9 | pred en %: 1.5625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.015625
+ 
+40 1.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.314417
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.171052
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.662211
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.323639
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.969215
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.505157
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.336860
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.513438
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.306848
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.310202
+
+Test set super: Average loss: 0.2385,             Accuracy: 9335/10000 (93%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 10.9375
+
+eps: 0.1 | pred en %: 10.9375
+
+eps: 0.3 | pred en %: 10.9375
+
+eps: 0.5 | pred en %: 10.9375
+
+eps: 0.7 | pred en %: 10.9375
+
+eps: 0.9 | pred en %: 10.9375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+40 1.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302043
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302090
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.303205
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.301633
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302163
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302313
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.301395
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.303360
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.301237
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.301395
+
+Test set super: Average loss: 2.3023,             Accuracy: 1028/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 10.9375
+
+eps: 0.1 | pred en %: 10.9375
+
+eps: 0.3 | pred en %: 10.9375
+
+eps: 0.5 | pred en %: 10.9375
+
+eps: 0.7 | pred en %: 10.9375
+
+eps: 0.9 | pred en %: 10.9375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+40 1.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302585
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302585
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1028/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+40 2.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.301545
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.291754
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.184021
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.918565
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 1.530730
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 1.246306
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 1.079529
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.802595
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.753508
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.773755
+
+Test set super: Average loss: 0.5543,             Accuracy: 8349/10000 (83%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+40 2.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.306219
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.309292
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.296685
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.297952
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.295259
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.289052
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.304745
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.307258
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.309889
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.294797
+
+Test set super: Average loss: 2.3015,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+48 0.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.273382
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.213293
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.674693
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.243072
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.270016
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.281627
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.201031
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.162728
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.105724
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.256333
+
+Test set super: Average loss: 0.1683,             Accuracy: 9504/10000 (95%)
+
+ 
+accuracy | 0.890625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 87.5
+
+eps: 0.1 | pred en %: 84.375
+
+eps: 0.3 | pred en %: 60.9375
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 4.6875
+
+eps: 0.9 | pred en %: 1.5625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.890625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.84375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.609375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.046875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.015625
+ 
+48 0.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.284455
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.033495
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.439321
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.250914
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.193230
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.278975
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.178120
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.064126
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.096319
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.129182
+
+Test set super: Average loss: 0.1528,             Accuracy: 9584/10000 (96%)
+
+ 
+accuracy | 0.78125
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 78.125
+
+eps: 0.1 | pred en %: 62.5
+
+eps: 0.3 | pred en %: 43.75
+
+eps: 0.5 | pred en %: 17.1875
+
+eps: 0.7 | pred en %: 0.0
+
+eps: 0.9 | pred en %: 0.0
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.78125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.4375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.171875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.0
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.0
+ 
+48 0.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.303363
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.237571
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.075654
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.630432
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.401390
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.328801
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.190056
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.317203
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.109393
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.147694
+
+Test set super: Average loss: 0.1931,             Accuracy: 9417/10000 (94%)
+
+ 
+accuracy | 0.484375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 46.875
+
+eps: 0.1 | pred en %: 31.25
+
+eps: 0.3 | pred en %: 17.1875
+
+eps: 0.5 | pred en %: 7.8125
+
+eps: 0.7 | pred en %: 6.25
+
+eps: 0.9 | pred en %: 6.25
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.484375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.3125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.171875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.0625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.0625
+ 
+48 1.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.310186
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.755546
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.981650
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.502079
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.390827
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.184964
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.149470
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.220619
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.168275
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.152498
+
+Test set super: Average loss: 0.2058,             Accuracy: 9427/10000 (94%)
+
+ 
+accuracy | 0.015625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 1.5625
+
+eps: 0.1 | pred en %: 1.5625
+
+eps: 0.3 | pred en %: 1.5625
+
+eps: 0.5 | pred en %: 1.5625
+
+eps: 0.7 | pred en %: 1.5625
+
+eps: 0.9 | pred en %: 1.5625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.015625
+ 
+48 1.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.314437
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.740114
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.999009
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.763870
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.396334
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.268901
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.290665
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.155500
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.153066
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.270591
+
+Test set super: Average loss: 0.2038,             Accuracy: 9377/10000 (94%)
+
+ 
+accuracy | 0.015625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 1.5625
+
+eps: 0.1 | pred en %: 1.5625
+
+eps: 0.3 | pred en %: 1.5625
+
+eps: 0.5 | pred en %: 1.5625
+
+eps: 0.7 | pred en %: 1.5625
+
+eps: 0.9 | pred en %: 1.5625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.015625
+ 
+48 1.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.301432
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.303378
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.310381
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.307284
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.287349
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.304255
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302448
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.299157
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.296617
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302566
+
+Test set super: Average loss: 2.3018,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+48 1.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.303263
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302585
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1028/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+48 2.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.295957
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.304834
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.291685
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.297902
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.297941
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.306497
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.294425
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.303614
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.300134
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302021
+
+Test set super: Average loss: 2.3015,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+48 2.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.303813
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.306156
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.298701
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302979
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.295728
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.299990
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.290272
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.292534
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.307612
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.296599
+
+Test set super: Average loss: 2.3015,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+56 0.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.316540
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.522511
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.529211
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.367492
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.308226
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.308271
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.192029
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.166554
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.158583
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.073026
+
+Test set super: Average loss: 0.1356,             Accuracy: 9610/10000 (96%)
+
+ 
+accuracy | 0.9375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 92.1875
+
+eps: 0.1 | pred en %: 82.8125
+
+eps: 0.3 | pred en %: 50.0
+
+eps: 0.5 | pred en %: 0.0
+
+eps: 0.7 | pred en %: 0.0
+
+eps: 0.9 | pred en %: 0.0
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.9375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.828125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.5
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.0
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.0
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.0
+ 
+56 0.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.283962
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.638669
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.634733
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.238961
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.372520
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.232499
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.241968
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.298241
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.165736
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.169124
+
+Test set super: Average loss: 0.1801,             Accuracy: 9440/10000 (94%)
+
+ 
+accuracy | 0.796875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 79.6875
+
+eps: 0.1 | pred en %: 71.875
+
+eps: 0.3 | pred en %: 42.1875
+
+eps: 0.5 | pred en %: 23.4375
+
+eps: 0.7 | pred en %: 6.25
+
+eps: 0.9 | pred en %: 3.125
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.796875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.71875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.421875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.234375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.0625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.03125
+ 
+56 0.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.313786
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.917915
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.468914
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.997749
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.341271
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.375180
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.403371
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.186553
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.281168
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.191653
+
+Test set super: Average loss: 0.1939,             Accuracy: 9451/10000 (95%)
+
+ 
+accuracy | 0.421875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 42.1875
+
+eps: 0.1 | pred en %: 34.375
+
+eps: 0.3 | pred en %: 12.5
+
+eps: 0.5 | pred en %: 7.8125
+
+eps: 0.7 | pred en %: 4.6875
+
+eps: 0.9 | pred en %: 1.5625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.421875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.34375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.046875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.015625
+ 
+56 1.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.308156
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.304315
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302036
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.298074
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.289770
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.301084
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.306066
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302794
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.307632
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.304810
+
+Test set super: Average loss: 2.3016,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+56 1.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.272200
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.587824
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.077669
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.468558
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.300984
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.390224
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.326446
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.142006
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.153797
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.233060
+
+Test set super: Average loss: 0.1805,             Accuracy: 9447/10000 (94%)
+
+ 
+accuracy | 0.078125
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 7.8125
+
+eps: 0.1 | pred en %: 7.8125
+
+eps: 0.3 | pred en %: 7.8125
+
+eps: 0.5 | pred en %: 7.8125
+
+eps: 0.7 | pred en %: 7.8125
+
+eps: 0.9 | pred en %: 7.8125
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.078125
+ 
+56 1.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302115
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.308607
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.303213
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.303183
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.303214
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.303108
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302222
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302364
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302006
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302477
+
+Test set super: Average loss: 2.3026,             Accuracy: 980/10000 (10%)
+
+ 
+accuracy | 0.09375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.09375
+ 
+56 1.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.292768
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.262690
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.007576
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.270241
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.562688
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.353499
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.242750
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.330977
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.260590
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.299007
+
+Test set super: Average loss: 0.2437,             Accuracy: 9283/10000 (93%)
+
+ 
+accuracy | 0.015625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 1.5625
+
+eps: 0.1 | pred en %: 1.5625
+
+eps: 0.3 | pred en %: 1.5625
+
+eps: 0.5 | pred en %: 1.5625
+
+eps: 0.7 | pred en %: 1.5625
+
+eps: 0.9 | pred en %: 1.5625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.015625
+ 
+56 2.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.310403
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.301216
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302394
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.301163
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302022
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.301431
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.304027
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.303141
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302024
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302784
+
+Test set super: Average loss: 2.3026,             Accuracy: 1010/10000 (10%)
+
+ 
+accuracy | 0.09375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.09375
+ 
+56 2.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.303550
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.303621
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302628
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.301962
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.304299
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.300740
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.301234
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.304271
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302842
+
+Test set super: Average loss: 2.3020,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+64 0.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.295333
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.772023
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.828253
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.398855
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.255000
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.377734
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.186276
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.196061
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.173678
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.168128
+
+Test set super: Average loss: 0.2003,             Accuracy: 9378/10000 (94%)
+
+ 
+accuracy | 0.90625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 90.625
+
+eps: 0.1 | pred en %: 79.6875
+
+eps: 0.3 | pred en %: 39.0625
+
+eps: 0.5 | pred en %: 1.5625
+
+eps: 0.7 | pred en %: 0.0
+
+eps: 0.9 | pred en %: 0.0
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.90625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.796875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.390625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.0
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.0
+ 
+64 0.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.269620
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.953307
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.236652
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.727521
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.334237
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.147298
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.178554
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.138412
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.060873
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.079901
+
+Test set super: Average loss: 0.1577,             Accuracy: 9512/10000 (95%)
+
+ 
+accuracy | 0.640625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 64.0625
+
+eps: 0.1 | pred en %: 53.125
+
+eps: 0.3 | pred en %: 25.0
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 3.125
+
+eps: 0.9 | pred en %: 1.5625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.640625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.53125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.25
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.03125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.015625
+ 
+64 0.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.290818
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 0.866461
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.272045
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.138742
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.233579
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.179046
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.150305
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.055502
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.091118
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.183485
+
+Test set super: Average loss: 0.1696,             Accuracy: 9475/10000 (95%)
+
+ 
+accuracy | 0.765625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 76.5625
+
+eps: 0.1 | pred en %: 65.625
+
+eps: 0.3 | pred en %: 48.4375
+
+eps: 0.5 | pred en %: 20.3125
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 0.0
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.765625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.65625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.484375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.203125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.0
+ 
+64 1.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.306537
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.303794
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1031/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+64 1.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.314530
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.999003
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.676860
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.464447
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.374927
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.190442
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.241175
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.197843
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.102074
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.252230
+
+Test set super: Average loss: 0.1498,             Accuracy: 9524/10000 (95%)
+
+ 
+accuracy | 0.015625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 1.5625
+
+eps: 0.1 | pred en %: 1.5625
+
+eps: 0.3 | pred en %: 1.5625
+
+eps: 0.5 | pred en %: 1.5625
+
+eps: 0.7 | pred en %: 1.5625
+
+eps: 0.9 | pred en %: 1.5625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.015625
+ 
+64 1.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.303021
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.299278
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.293031
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.307355
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.312070
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.295187
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.300331
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.304042
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.305740
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.307124
+
+Test set super: Average loss: 2.3016,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+64 1.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.297378
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.168987
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.977683
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.385625
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.876733
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.686723
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.655408
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.616987
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.393156
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.294652
+
+Test set super: Average loss: 0.3363,             Accuracy: 9016/10000 (90%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 10.9375
+
+eps: 0.1 | pred en %: 10.9375
+
+eps: 0.3 | pred en %: 10.9375
+
+eps: 0.5 | pred en %: 10.9375
+
+eps: 0.7 | pred en %: 10.9375
+
+eps: 0.9 | pred en %: 10.9375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+64 2.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302595
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.291179
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.299040
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1028/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+64 2.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.309837
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.303960
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.298493
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.300916
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.311360
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.310225
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.307731
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.294286
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.296800
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.304686
+
+Test set super: Average loss: 2.3016,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+72 0.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.345564
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.057850
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.587265
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.342301
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.211693
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.197307
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.126998
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.113908
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.054464
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.098149
+
+Test set super: Average loss: 0.1449,             Accuracy: 9569/10000 (96%)
+
+ 
+accuracy | 0.875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 89.0625
+
+eps: 0.1 | pred en %: 73.4375
+
+eps: 0.3 | pred en %: 17.1875
+
+eps: 0.5 | pred en %: 0.0
+
+eps: 0.7 | pred en %: 0.0
+
+eps: 0.9 | pred en %: 0.0
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.734375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.171875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.0
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.0
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.0
+ 
+72 0.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.341471
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.456832
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.679982
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.426272
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.440183
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.187701
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.286967
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.091763
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.117022
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.216099
+
+Test set super: Average loss: 0.1390,             Accuracy: 9607/10000 (96%)
+
+ 
+accuracy | 0.875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 87.5
+
+eps: 0.1 | pred en %: 76.5625
+
+eps: 0.3 | pred en %: 37.5
+
+eps: 0.5 | pred en %: 4.6875
+
+eps: 0.7 | pred en %: 1.5625
+
+eps: 0.9 | pred en %: 0.0
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.765625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.046875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.0
+ 
+72 0.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.326137
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 0.829734
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.517438
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.498634
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.449334
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.152904
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.124522
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.262679
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.360575
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.211390
+
+Test set super: Average loss: 0.1311,             Accuracy: 9620/10000 (96%)
+
+ 
+accuracy | 0.40625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 43.75
+
+eps: 0.1 | pred en %: 29.6875
+
+eps: 0.3 | pred en %: 7.8125
+
+eps: 0.5 | pred en %: 6.25
+
+eps: 0.7 | pred en %: 6.25
+
+eps: 0.9 | pred en %: 6.25
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.40625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.296875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.0625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.0625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.0625
+ 
+72 1.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.301530
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.307637
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.300842
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.291179
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.300569
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.305450
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.300328
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.299950
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.299957
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302855
+
+Test set super: Average loss: 2.3016,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+72 1.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.340047
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.606931
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.903412
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.593993
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.322625
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.126510
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.235588
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.141238
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.148950
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.073622
+
+Test set super: Average loss: 0.1542,             Accuracy: 9539/10000 (95%)
+
+ 
+accuracy | 0.015625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 1.5625
+
+eps: 0.1 | pred en %: 1.5625
+
+eps: 0.3 | pred en %: 1.5625
+
+eps: 0.5 | pred en %: 1.5625
+
+eps: 0.7 | pred en %: 1.5625
+
+eps: 0.9 | pred en %: 1.5625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.015625
+ 
+72 1.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.304383
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.305653
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.296373
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.299544
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.303215
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.295458
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.297490
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.308262
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.309762
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.300183
+
+Test set super: Average loss: 2.3015,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+72 1.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.301023
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.301636
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.294415
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1028/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+72 2.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.288087
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.810869
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.724895
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.724186
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.363677
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.437742
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.271039
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.377637
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.360746
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.287548
+
+Test set super: Average loss: 0.2622,             Accuracy: 9192/10000 (92%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 10.9375
+
+eps: 0.1 | pred en %: 10.9375
+
+eps: 0.3 | pred en %: 10.9375
+
+eps: 0.5 | pred en %: 10.9375
+
+eps: 0.7 | pred en %: 10.9375
+
+eps: 0.9 | pred en %: 10.9375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+72 2.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.332057
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.095946
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.704519
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.947737
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.682431
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.385817
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.470391
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.294508
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.378056
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.365597
+
+Test set super: Average loss: 0.3131,             Accuracy: 9019/10000 (90%)
+
+ 
+accuracy | 0.015625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 1.5625
+
+eps: 0.1 | pred en %: 1.5625
+
+eps: 0.3 | pred en %: 1.5625
+
+eps: 0.5 | pred en %: 1.5625
+
+eps: 0.7 | pred en %: 1.5625
+
+eps: 0.9 | pred en %: 1.5625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.015625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.015625
+ 
+80 0.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.319320
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.153566
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.470036
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.400106
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.269217
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.309263
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.182856
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.231301
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.250478
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.228797
+
+Test set super: Average loss: 0.1701,             Accuracy: 9514/10000 (95%)
+
+ 
+accuracy | 0.921875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 92.1875
+
+eps: 0.1 | pred en %: 89.0625
+
+eps: 0.3 | pred en %: 48.4375
+
+eps: 0.5 | pred en %: 10.9375
+
+eps: 0.7 | pred en %: 0.0
+
+eps: 0.9 | pred en %: 0.0
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.921875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.890625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.484375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.0
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.0
+ 
+80 0.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.346397
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.326000
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.623452
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.340037
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.253923
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.103029
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.078858
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.326332
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.056564
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.074517
+
+Test set super: Average loss: 0.1333,             Accuracy: 9615/10000 (96%)
+
+ 
+accuracy | 0.90625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 92.1875
+
+eps: 0.1 | pred en %: 81.25
+
+eps: 0.3 | pred en %: 46.875
+
+eps: 0.5 | pred en %: 29.6875
+
+eps: 0.7 | pred en %: 7.8125
+
+eps: 0.9 | pred en %: 4.6875
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.90625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.8125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.46875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.296875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.046875
+ 
+80 0.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.376391
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.584570
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.924012
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.389078
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.132407
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.072225
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.195851
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.178603
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.160790
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.155905
+
+Test set super: Average loss: 0.1362,             Accuracy: 9608/10000 (96%)
+
+ 
+accuracy | 0.734375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 73.4375
+
+eps: 0.1 | pred en %: 50.0
+
+eps: 0.3 | pred en %: 7.8125
+
+eps: 0.5 | pred en %: 4.6875
+
+eps: 0.7 | pred en %: 0.0
+
+eps: 0.9 | pred en %: 0.0
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.734375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.5
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.078125
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.046875
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.0
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.0
+ 
+80 1.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.311280
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.960402
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.039116
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.459768
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.246810
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.363847
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.331472
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.249074
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.229964
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.267338
+
+Test set super: Average loss: 0.1951,             Accuracy: 9427/10000 (94%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+80 1.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.330493
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.824600
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.112961
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.527546
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.236454
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.167520
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.275619
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.188219
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.156629
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.235241
+
+Test set super: Average loss: 0.1490,             Accuracy: 9551/10000 (96%)
+
+ 
+accuracy | 0.09375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.09375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.09375
+ 
+80 1.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.311802
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.305331
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.297524
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.293752
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.311135
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.299985
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.307120
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302200
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.296391
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.308329
+
+Test set super: Average loss: 2.3016,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+80 1.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.394410
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.403297
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.905225
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.575334
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.415654
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.207086
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.241117
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.292703
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.380396
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.159038
+
+Test set super: Average loss: 0.2180,             Accuracy: 9372/10000 (94%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 10.9375
+
+eps: 0.1 | pred en %: 10.9375
+
+eps: 0.3 | pred en %: 10.9375
+
+eps: 0.5 | pred en %: 10.9375
+
+eps: 0.7 | pred en %: 10.9375
+
+eps: 0.9 | pred en %: 10.9375
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.109375
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.109375
+ 
+80 2.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.301321
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.311775
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.295653
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.304592
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.303721
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.299265
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.297965
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.295414
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.296037
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.300956
+
+Test set super: Average loss: 2.3015,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 
+80 2.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302585
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302585
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.301939
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.293755
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.306930
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.308175
+
+Test set super: Average loss: 2.3016,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.0 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.1 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.3 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.5 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.7 0.15625
+LinfProjectedGradientDescentAttack(rel_stepsize=0.03333333333333333, abs_stepsize=None, steps=40, random_start=True) 0.9 0.15625
+ 

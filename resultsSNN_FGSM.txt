@@ -1,0 +1,96 @@
+32 0.25
+ 
+32 0.25
+ 
+32 0.25
+ 
+
+Test set super: Average loss: 0.9351,             Accuracy: 8600/10000 (86%)
+
+ 
+accuracy | 0.875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 87.5
+
+eps: 0.1 | pred en %: 82.8125
+
+eps: 0.3 | pred en %: 79.6875
+
+eps: 0.5 | pred en %: 64.0625
+
+eps: 0.7 | pred en %: 54.6875
+
+eps: 0.9 | pred en %: 42.1875
+
+LinfFastGradientAttack(rel_stepsize=1.0, abs_stepsize=None, steps=1, random_start=False) 0.0 0.875
+LinfFastGradientAttack(rel_stepsize=1.0, abs_stepsize=None, steps=1, random_start=False) 0.1 0.828125
+LinfFastGradientAttack(rel_stepsize=1.0, abs_stepsize=None, steps=1, random_start=False) 0.3 0.796875
+LinfFastGradientAttack(rel_stepsize=1.0, abs_stepsize=None, steps=1, random_start=False) 0.5 0.640625
+LinfFastGradientAttack(rel_stepsize=1.0, abs_stepsize=None, steps=1, random_start=False) 0.7 0.546875
+LinfFastGradientAttack(rel_stepsize=1.0, abs_stepsize=None, steps=1, random_start=False) 0.9 0.421875
+ 
+32 0.5
+ 
+
+Test set super: Average loss: 2.2243,             Accuracy: 3249/10000 (32%)
+
+ 
+accuracy | 0.34375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 34.375
+
+eps: 0.1 | pred en %: 28.125
+
+eps: 0.3 | pred en %: 20.3125
+
+eps: 0.5 | pred en %: 31.25
+
+eps: 0.7 | pred en %: 28.125
+
+eps: 0.9 | pred en %: 29.6875
+
+LinfFastGradientAttack(rel_stepsize=1.0, abs_stepsize=None, steps=1, random_start=False) 0.0 0.34375
+LinfFastGradientAttack(rel_stepsize=1.0, abs_stepsize=None, steps=1, random_start=False) 0.1 0.28125
+LinfFastGradientAttack(rel_stepsize=1.0, abs_stepsize=None, steps=1, random_start=False) 0.3 0.203125
+LinfFastGradientAttack(rel_stepsize=1.0, abs_stepsize=None, steps=1, random_start=False) 0.5 0.3125
+LinfFastGradientAttack(rel_stepsize=1.0, abs_stepsize=None, steps=1, random_start=False) 0.7 0.28125
+LinfFastGradientAttack(rel_stepsize=1.0, abs_stepsize=None, steps=1, random_start=False) 0.9 0.296875
+ 
+32 0.75
+ 
+
+Test set super: Average loss: 2.3026,             Accuracy: 1019/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+LinfFastGradientAttack(rel_stepsize=1.0, abs_stepsize=None, steps=1, random_start=False) 0.0 0.109375
+LinfFastGradientAttack(rel_stepsize=1.0, abs_stepsize=None, steps=1, random_start=False) 0.1 0.109375
+LinfFastGradientAttack(rel_stepsize=1.0, abs_stepsize=None, steps=1, random_start=False) 0.3 0.109375
+LinfFastGradientAttack(rel_stepsize=1.0, abs_stepsize=None, steps=1, random_start=False) 0.5 0.109375
+LinfFastGradientAttack(rel_stepsize=1.0, abs_stepsize=None, steps=1, random_start=False) 0.7 0.109375
+LinfFastGradientAttack(rel_stepsize=1.0, abs_stepsize=None, steps=1, random_start=False) 0.9 0.109375
+ 
+32 1.0
+ 

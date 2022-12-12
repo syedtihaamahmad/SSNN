@@ -1,0 +1,3087 @@
+32 0.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.307946
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.734148
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.879746
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.896188
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.626213
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.234835
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.261357
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.260916
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.168252
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.203912
+
+Test set super: Average loss: 0.1936,             Accuracy: 9403/10000 (94%)
+
+ 
+accuracy | 0.96875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 96.875
+
+eps: 0.1 | pred en %: 96.875
+
+eps: 0.3 | pred en %: 92.1875
+
+eps: 0.5 | pred en %: 90.625
+
+eps: 0.7 | pred en %: 90.625
+
+eps: 0.9 | pred en %: 62.5
+
+eps: 1.0 | pred en %: 37.5
+
+eps: 1.5 | pred en %: 0.0
+
+eps: 2.0 | pred en %: 0.0
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.921875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.90625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.90625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.40625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.0
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.0
+ 
+32 0.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302765
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.305671
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1009/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+eps: 1.0 | pred en %: 9.375
+
+eps: 1.5 | pred en %: 9.375
+
+eps: 2.0 | pred en %: 9.375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.109375
+ 
+32 0.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.299969
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.264471
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.140926
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.752983
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 1.315373
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.955239
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.751148
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.591399
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.443191
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.354429
+
+Test set super: Average loss: 0.3140,             Accuracy: 9183/10000 (92%)
+
+ 
+accuracy | 0.953125
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 95.3125
+
+eps: 0.1 | pred en %: 96.875
+
+eps: 0.3 | pred en %: 93.75
+
+eps: 0.5 | pred en %: 87.5
+
+eps: 0.7 | pred en %: 82.8125
+
+eps: 0.9 | pred en %: 73.4375
+
+eps: 1.0 | pred en %: 64.0625
+
+eps: 1.5 | pred en %: 26.5625
+
+eps: 2.0 | pred en %: 15.625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.953125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.828125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.734375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.640625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.265625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.15625
+ 
+32 1.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.303674
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.292290
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.271560
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.003803
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 1.543873
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 1.432176
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.996853
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.691753
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.705683
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.521208
+
+Test set super: Average loss: 0.5214,             Accuracy: 8585/10000 (86%)
+
+ 
+accuracy | 0.859375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 85.9375
+
+eps: 0.1 | pred en %: 89.0625
+
+eps: 0.3 | pred en %: 85.9375
+
+eps: 0.5 | pred en %: 81.25
+
+eps: 0.7 | pred en %: 79.6875
+
+eps: 0.9 | pred en %: 67.1875
+
+eps: 1.0 | pred en %: 60.9375
+
+eps: 1.5 | pred en %: 14.0625
+
+eps: 2.0 | pred en %: 1.5625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.859375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.890625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.859375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.8125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.796875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.671875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.609375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.140625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.015625
+ 
+32 1.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.299280
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302640
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.297757
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.279521
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.269896
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.223124
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.130044
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 1.781844
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 1.604933
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 1.299828
+
+Test set super: Average loss: 1.2270,             Accuracy: 6469/10000 (65%)
+
+ 
+accuracy | 0.65625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 65.625
+
+eps: 0.1 | pred en %: 68.75
+
+eps: 0.3 | pred en %: 65.625
+
+eps: 0.5 | pred en %: 64.0625
+
+eps: 0.7 | pred en %: 54.6875
+
+eps: 0.9 | pred en %: 51.5625
+
+eps: 1.0 | pred en %: 43.75
+
+eps: 1.5 | pred en %: 10.9375
+
+eps: 2.0 | pred en %: 10.9375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.65625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.6875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.65625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.640625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.546875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.515625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.4375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.109375
+ 
+32 1.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.304949
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302585
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1009/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+eps: 1.0 | pred en %: 9.375
+
+eps: 1.5 | pred en %: 9.375
+
+eps: 2.0 | pred en %: 9.375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.109375
+ 
+32 1.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302685
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.298887
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.303663
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.299474
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.301803
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.307488
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.305104
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.304428
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.300387
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.300682
+
+Test set super: Average loss: 2.3017,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+eps: 1.0 | pred en %: 15.625
+
+eps: 1.5 | pred en %: 15.625
+
+eps: 2.0 | pred en %: 15.625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.15625
+ 
+32 2.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.301965
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302585
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1009/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+eps: 1.0 | pred en %: 9.375
+
+eps: 1.5 | pred en %: 9.375
+
+eps: 2.0 | pred en %: 9.375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.109375
+ 
+32 2.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302585
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302585
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1009/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+eps: 1.0 | pred en %: 9.375
+
+eps: 1.5 | pred en %: 9.375
+
+eps: 2.0 | pred en %: 9.375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.109375
+ 
+40 0.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.327327
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.139452
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.790660
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.695295
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.360404
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.273353
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.249591
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.324806
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.103241
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.192040
+
+Test set super: Average loss: 0.1654,             Accuracy: 9500/10000 (95%)
+
+ 
+accuracy | 0.96875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 96.875
+
+eps: 0.1 | pred en %: 96.875
+
+eps: 0.3 | pred en %: 96.875
+
+eps: 0.5 | pred en %: 92.1875
+
+eps: 0.7 | pred en %: 87.5
+
+eps: 0.9 | pred en %: 68.75
+
+eps: 1.0 | pred en %: 50.0
+
+eps: 1.5 | pred en %: 4.6875
+
+eps: 2.0 | pred en %: 3.125
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.921875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.859375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.6875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.5
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.046875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.03125
+ 
+40 0.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.300751
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.141749
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.647047
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.369050
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.910712
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.912951
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 1.029392
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.907090
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.854192
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.666046
+
+Test set super: Average loss: 0.7748,             Accuracy: 7444/10000 (74%)
+
+ 
+accuracy | 0.6875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 70.3125
+
+eps: 0.1 | pred en %: 65.625
+
+eps: 0.3 | pred en %: 62.5
+
+eps: 0.5 | pred en %: 64.0625
+
+eps: 0.7 | pred en %: 59.375
+
+eps: 0.9 | pred en %: 42.1875
+
+eps: 1.0 | pred en %: 23.4375
+
+eps: 1.5 | pred en %: 15.625
+
+eps: 2.0 | pred en %: 15.625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.6875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.671875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.640625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.640625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.59375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.40625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.234375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.15625
+ 
+40 0.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.304822
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.276442
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.663010
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.967048
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.895483
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.450326
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.358805
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.275099
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.238810
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.352840
+
+Test set super: Average loss: 0.2575,             Accuracy: 9217/10000 (92%)
+
+ 
+accuracy | 0.96875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 96.875
+
+eps: 0.1 | pred en %: 98.4375
+
+eps: 0.3 | pred en %: 96.875
+
+eps: 0.5 | pred en %: 95.3125
+
+eps: 0.7 | pred en %: 89.0625
+
+eps: 0.9 | pred en %: 85.9375
+
+eps: 1.0 | pred en %: 73.4375
+
+eps: 1.5 | pred en %: 21.875
+
+eps: 2.0 | pred en %: 9.375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.953125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.890625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.859375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.734375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.21875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.09375
+ 
+40 1.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.294855
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.250706
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.018556
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.857296
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 1.507989
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.855968
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.507293
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.380931
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.303394
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.193424
+
+Test set super: Average loss: 0.2789,             Accuracy: 9183/10000 (92%)
+
+ 
+accuracy | 0.9375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 93.75
+
+eps: 0.1 | pred en %: 95.3125
+
+eps: 0.3 | pred en %: 93.75
+
+eps: 0.5 | pred en %: 90.625
+
+eps: 0.7 | pred en %: 85.9375
+
+eps: 0.9 | pred en %: 75.0
+
+eps: 1.0 | pred en %: 70.3125
+
+eps: 1.5 | pred en %: 32.8125
+
+eps: 2.0 | pred en %: 10.9375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.953125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.921875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.90625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.859375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.75
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.703125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.328125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.109375
+ 
+40 1.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.306505
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.296916
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1010/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+eps: 1.0 | pred en %: 9.375
+
+eps: 1.5 | pred en %: 9.375
+
+eps: 2.0 | pred en %: 9.375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.109375
+ 
+40 1.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.297276
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.222175
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.990098
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.201405
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.673593
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.578726
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.512222
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.495052
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.209497
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.338711
+
+Test set super: Average loss: 0.2637,             Accuracy: 9222/10000 (92%)
+
+ 
+accuracy | 0.96875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 96.875
+
+eps: 0.1 | pred en %: 96.875
+
+eps: 0.3 | pred en %: 96.875
+
+eps: 0.5 | pred en %: 96.875
+
+eps: 0.7 | pred en %: 93.75
+
+eps: 0.9 | pred en %: 87.5
+
+eps: 1.0 | pred en %: 75.0
+
+eps: 1.5 | pred en %: 10.9375
+
+eps: 2.0 | pred en %: 10.9375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.75
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.109375
+ 
+40 1.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.298385
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.308531
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.304671
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.317183
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.298618
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.301689
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.296801
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.300693
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302132
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.297647
+
+Test set super: Average loss: 2.3018,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+eps: 1.0 | pred en %: 15.625
+
+eps: 1.5 | pred en %: 15.625
+
+eps: 2.0 | pred en %: 15.625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.15625
+ 
+40 2.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.303714
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302463
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.300407
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.306866
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.218127
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.141984
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 1.825283
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 1.921567
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 1.711841
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 1.712454
+
+Test set super: Average loss: 1.5896,             Accuracy: 4411/10000 (44%)
+
+ 
+accuracy | 0.46875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 46.875
+
+eps: 0.1 | pred en %: 46.875
+
+eps: 0.3 | pred en %: 43.75
+
+eps: 0.5 | pred en %: 35.9375
+
+eps: 0.7 | pred en %: 10.9375
+
+eps: 0.9 | pred en %: 10.9375
+
+eps: 1.0 | pred en %: 10.9375
+
+eps: 1.5 | pred en %: 10.9375
+
+eps: 2.0 | pred en %: 10.9375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.46875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.46875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.4375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.359375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.109375
+ 
+40 2.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.307830
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.295230
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.300839
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.297731
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.303251
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.298385
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.305209
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1009/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+eps: 1.0 | pred en %: 9.375
+
+eps: 1.5 | pred en %: 9.375
+
+eps: 2.0 | pred en %: 9.375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.109375
+ 
+48 0.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.292942
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.801461
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.107278
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.629834
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.253262
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.324719
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.154482
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.199336
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.287412
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.115116
+
+Test set super: Average loss: 0.1616,             Accuracy: 9555/10000 (96%)
+
+ 
+accuracy | 0.984375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 98.4375
+
+eps: 0.1 | pred en %: 100.0
+
+eps: 0.3 | pred en %: 93.75
+
+eps: 0.5 | pred en %: 90.625
+
+eps: 0.7 | pred en %: 87.5
+
+eps: 0.9 | pred en %: 42.1875
+
+eps: 1.0 | pred en %: 25.0
+
+eps: 1.5 | pred en %: 0.0
+
+eps: 2.0 | pred en %: 0.0
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 1.0
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.90625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.421875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.25
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.0
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.0
+ 
+48 0.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.318135
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.844586
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.834972
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.437938
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.261339
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.242648
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.336141
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.264206
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.100625
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.156390
+
+Test set super: Average loss: 0.1502,             Accuracy: 9566/10000 (96%)
+
+ 
+accuracy | 0.984375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 98.4375
+
+eps: 0.1 | pred en %: 100.0
+
+eps: 0.3 | pred en %: 98.4375
+
+eps: 0.5 | pred en %: 96.875
+
+eps: 0.7 | pred en %: 96.875
+
+eps: 0.9 | pred en %: 96.875
+
+eps: 1.0 | pred en %: 93.75
+
+eps: 1.5 | pred en %: 29.6875
+
+eps: 2.0 | pred en %: 12.5
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 1.0
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.296875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.125
+ 
+48 0.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.306398
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.269439
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.637593
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.688800
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.351903
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.558192
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.334616
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.373570
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.134808
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.315888
+
+Test set super: Average loss: 0.1775,             Accuracy: 9469/10000 (95%)
+
+ 
+accuracy | 0.984375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 98.4375
+
+eps: 0.1 | pred en %: 98.4375
+
+eps: 0.3 | pred en %: 95.3125
+
+eps: 0.5 | pred en %: 93.75
+
+eps: 0.7 | pred en %: 92.1875
+
+eps: 0.9 | pred en %: 90.625
+
+eps: 1.0 | pred en %: 89.0625
+
+eps: 1.5 | pred en %: 59.375
+
+eps: 2.0 | pred en %: 10.9375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.953125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.921875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.90625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.890625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.59375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.109375
+ 
+48 1.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.305788
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.296995
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302631
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302290
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302703
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302602
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302601
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302913
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302270
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302316
+
+Test set super: Average loss: 2.3026,             Accuracy: 1010/10000 (10%)
+
+ 
+accuracy | 0.09375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+eps: 1.0 | pred en %: 9.375
+
+eps: 1.5 | pred en %: 9.375
+
+eps: 2.0 | pred en %: 9.375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.09375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.09375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.09375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.09375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.09375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.09375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.09375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.09375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.09375
+ 
+48 1.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.310365
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.297901
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.300486
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302934
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.301539
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302290
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302429
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.301488
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.300451
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.300568
+
+Test set super: Average loss: 2.3020,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+eps: 1.0 | pred en %: 15.625
+
+eps: 1.5 | pred en %: 15.625
+
+eps: 2.0 | pred en %: 15.625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.15625
+ 
+48 1.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.304284
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302292
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.304111
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.308173
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.297894
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.300030
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.298064
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.297817
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.300181
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.297856
+
+Test set super: Average loss: 2.3016,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+eps: 1.0 | pred en %: 15.625
+
+eps: 1.5 | pred en %: 15.625
+
+eps: 2.0 | pred en %: 15.625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.15625
+ 
+48 1.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.316898
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302166
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.299938
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.301316
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302618
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1009/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+eps: 1.0 | pred en %: 9.375
+
+eps: 1.5 | pred en %: 9.375
+
+eps: 2.0 | pred en %: 9.375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.109375
+ 
+48 2.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.308369
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.320746
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.303336
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.303799
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.301372
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.292113
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.299853
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1009/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+eps: 1.0 | pred en %: 9.375
+
+eps: 1.5 | pred en %: 9.375
+
+eps: 2.0 | pred en %: 9.375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.109375
+ 
+48 2.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302467
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302585
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1009/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+eps: 1.0 | pred en %: 9.375
+
+eps: 1.5 | pred en %: 9.375
+
+eps: 2.0 | pred en %: 9.375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.109375
+ 
+56 0.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.298471
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.240470
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.701453
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.382860
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.291514
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.265519
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.138004
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.138296
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.203583
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.244375
+
+Test set super: Average loss: 0.1441,             Accuracy: 9599/10000 (96%)
+
+ 
+accuracy | 0.984375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 98.4375
+
+eps: 0.1 | pred en %: 98.4375
+
+eps: 0.3 | pred en %: 96.875
+
+eps: 0.5 | pred en %: 96.875
+
+eps: 0.7 | pred en %: 93.75
+
+eps: 0.9 | pred en %: 79.6875
+
+eps: 1.0 | pred en %: 70.3125
+
+eps: 1.5 | pred en %: 0.0
+
+eps: 2.0 | pred en %: 0.0
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.796875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.703125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.0
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.0
+ 
+56 0.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.322585
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.223934
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.352640
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.267122
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.281995
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.183400
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.182993
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.147670
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.161819
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.206137
+
+Test set super: Average loss: 0.1703,             Accuracy: 9512/10000 (95%)
+
+ 
+accuracy | 0.984375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 98.4375
+
+eps: 0.1 | pred en %: 96.875
+
+eps: 0.3 | pred en %: 96.875
+
+eps: 0.5 | pred en %: 98.4375
+
+eps: 0.7 | pred en %: 87.5
+
+eps: 0.9 | pred en %: 81.25
+
+eps: 1.0 | pred en %: 57.8125
+
+eps: 1.5 | pred en %: 4.6875
+
+eps: 2.0 | pred en %: 3.125
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.8125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.578125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.046875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.03125
+ 
+56 0.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302856
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.340108
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.403117
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.410586
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.333523
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.289269
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.153710
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.173787
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.074375
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.125119
+
+Test set super: Average loss: 0.1494,             Accuracy: 9552/10000 (96%)
+
+ 
+accuracy | 0.984375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 98.4375
+
+eps: 0.1 | pred en %: 98.4375
+
+eps: 0.3 | pred en %: 98.4375
+
+eps: 0.5 | pred en %: 95.3125
+
+eps: 0.7 | pred en %: 93.75
+
+eps: 0.9 | pred en %: 90.625
+
+eps: 1.0 | pred en %: 89.0625
+
+eps: 1.5 | pred en %: 10.9375
+
+eps: 2.0 | pred en %: 1.5625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.953125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.90625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.890625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.015625
+ 
+56 1.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.296659
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.986808
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.012045
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.642041
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.439745
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.350487
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.207826
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.363716
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.199162
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.201412
+
+Test set super: Average loss: 0.2189,             Accuracy: 9351/10000 (94%)
+
+ 
+accuracy | 0.984375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 98.4375
+
+eps: 0.1 | pred en %: 98.4375
+
+eps: 0.3 | pred en %: 100.0
+
+eps: 0.5 | pred en %: 100.0
+
+eps: 0.7 | pred en %: 95.3125
+
+eps: 0.9 | pred en %: 89.0625
+
+eps: 1.0 | pred en %: 87.5
+
+eps: 1.5 | pred en %: 48.4375
+
+eps: 2.0 | pred en %: 10.9375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 1.0
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 1.0
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.953125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.890625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.484375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.109375
+ 
+56 1.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.301720
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.927439
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.470870
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.068843
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.745627
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.565508
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.517596
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.633304
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.367526
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.437162
+
+Test set super: Average loss: 0.3346,             Accuracy: 9068/10000 (91%)
+
+ 
+accuracy | 0.921875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 92.1875
+
+eps: 0.1 | pred en %: 90.625
+
+eps: 0.3 | pred en %: 90.625
+
+eps: 0.5 | pred en %: 92.1875
+
+eps: 0.7 | pred en %: 87.5
+
+eps: 0.9 | pred en %: 82.8125
+
+eps: 1.0 | pred en %: 75.0
+
+eps: 1.5 | pred en %: 31.25
+
+eps: 2.0 | pred en %: 15.625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.921875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.90625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.90625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.921875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.828125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.75
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.3125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.15625
+ 
+56 1.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.321587
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.873695
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.894070
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.590184
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.308489
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.191596
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.340882
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.209496
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.338265
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.059741
+
+Test set super: Average loss: 0.1977,             Accuracy: 9395/10000 (94%)
+
+ 
+accuracy | 0.953125
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 95.3125
+
+eps: 0.1 | pred en %: 93.75
+
+eps: 0.3 | pred en %: 93.75
+
+eps: 0.5 | pred en %: 92.1875
+
+eps: 0.7 | pred en %: 87.5
+
+eps: 0.9 | pred en %: 84.375
+
+eps: 1.0 | pred en %: 78.125
+
+eps: 1.5 | pred en %: 15.625
+
+eps: 2.0 | pred en %: 15.625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.953125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.921875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.84375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.78125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.15625
+ 
+56 1.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.313051
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.143480
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.650801
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.027540
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.314383
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.244922
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.231856
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.356190
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.257537
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.092438
+
+Test set super: Average loss: 0.1869,             Accuracy: 9441/10000 (94%)
+
+ 
+accuracy | 0.96875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 96.875
+
+eps: 0.1 | pred en %: 96.875
+
+eps: 0.3 | pred en %: 96.875
+
+eps: 0.5 | pred en %: 92.1875
+
+eps: 0.7 | pred en %: 84.375
+
+eps: 0.9 | pred en %: 57.8125
+
+eps: 1.0 | pred en %: 29.6875
+
+eps: 1.5 | pred en %: 1.5625
+
+eps: 2.0 | pred en %: 1.5625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.921875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.84375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.578125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.296875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.015625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.015625
+ 
+56 2.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302585
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302585
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1009/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+eps: 1.0 | pred en %: 9.375
+
+eps: 1.5 | pred en %: 9.375
+
+eps: 2.0 | pred en %: 9.375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.109375
+ 
+56 2.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.307419
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.273813
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.270864
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.157916
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 1.439843
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 1.109216
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.897309
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.673699
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.372065
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.385401
+
+Test set super: Average loss: 0.3771,             Accuracy: 8829/10000 (88%)
+
+ 
+accuracy | 0.875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 87.5
+
+eps: 0.1 | pred en %: 82.8125
+
+eps: 0.3 | pred en %: 65.625
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 1.5625
+
+eps: 0.9 | pred en %: 1.5625
+
+eps: 1.0 | pred en %: 1.5625
+
+eps: 1.5 | pred en %: 1.5625
+
+eps: 2.0 | pred en %: 1.5625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.828125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.65625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.09375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.015625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.015625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.015625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.015625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.015625
+ 
+64 0.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.317342
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.035965
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.666471
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.318448
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.690278
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.537337
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.168737
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.106501
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.344715
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.100857
+
+Test set super: Average loss: 0.1815,             Accuracy: 9488/10000 (95%)
+
+ 
+accuracy | 0.9375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 93.75
+
+eps: 0.1 | pred en %: 93.75
+
+eps: 0.3 | pred en %: 92.1875
+
+eps: 0.5 | pred en %: 90.625
+
+eps: 0.7 | pred en %: 81.25
+
+eps: 0.9 | pred en %: 31.25
+
+eps: 1.0 | pred en %: 17.1875
+
+eps: 1.5 | pred en %: 4.6875
+
+eps: 2.0 | pred en %: 1.5625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.921875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.90625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.8125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.3125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.140625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.046875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.015625
+ 
+64 0.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.342167
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.088755
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.657309
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.391233
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.223819
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.076061
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.212432
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.099757
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.069904
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.072012
+
+Test set super: Average loss: 0.1243,             Accuracy: 9641/10000 (96%)
+
+ 
+accuracy | 0.984375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 98.4375
+
+eps: 0.1 | pred en %: 100.0
+
+eps: 0.3 | pred en %: 98.4375
+
+eps: 0.5 | pred en %: 96.875
+
+eps: 0.7 | pred en %: 96.875
+
+eps: 0.9 | pred en %: 93.75
+
+eps: 1.0 | pred en %: 75.0
+
+eps: 1.5 | pred en %: 0.0
+
+eps: 2.0 | pred en %: 0.0
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 1.0
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.75
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.0
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.0
+ 
+64 0.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.313719
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.983279
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.131710
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.617760
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.293514
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.154913
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.186363
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.148610
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.070629
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.307086
+
+Test set super: Average loss: 0.1759,             Accuracy: 9481/10000 (95%)
+
+ 
+accuracy | 0.96875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 96.875
+
+eps: 0.1 | pred en %: 100.0
+
+eps: 0.3 | pred en %: 98.4375
+
+eps: 0.5 | pred en %: 95.3125
+
+eps: 0.7 | pred en %: 93.75
+
+eps: 0.9 | pred en %: 92.1875
+
+eps: 1.0 | pred en %: 87.5
+
+eps: 1.5 | pred en %: 39.0625
+
+eps: 2.0 | pred en %: 3.125
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 1.0
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.953125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.921875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.390625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.03125
+ 
+64 1.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.328295
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.097980
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.564920
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.157952
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.566344
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.478127
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.336072
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.322275
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.255122
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.301060
+
+Test set super: Average loss: 0.3722,             Accuracy: 8652/10000 (87%)
+
+ 
+accuracy | 0.90625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 90.625
+
+eps: 0.1 | pred en %: 90.625
+
+eps: 0.3 | pred en %: 90.625
+
+eps: 0.5 | pred en %: 90.625
+
+eps: 0.7 | pred en %: 90.625
+
+eps: 0.9 | pred en %: 90.625
+
+eps: 1.0 | pred en %: 90.625
+
+eps: 1.5 | pred en %: 75.0
+
+eps: 2.0 | pred en %: 15.625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.90625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.90625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.90625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.90625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.90625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.90625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.90625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.75
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.15625
+ 
+64 1.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.338772
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.893234
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.024066
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.310715
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.239000
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.257883
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.236256
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.303272
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.148467
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.171903
+
+Test set super: Average loss: 0.1652,             Accuracy: 9498/10000 (95%)
+
+ 
+accuracy | 0.953125
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 95.3125
+
+eps: 0.1 | pred en %: 95.3125
+
+eps: 0.3 | pred en %: 96.875
+
+eps: 0.5 | pred en %: 96.875
+
+eps: 0.7 | pred en %: 95.3125
+
+eps: 0.9 | pred en %: 95.3125
+
+eps: 1.0 | pred en %: 85.9375
+
+eps: 1.5 | pred en %: 35.9375
+
+eps: 2.0 | pred en %: 7.8125
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.953125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.953125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.953125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.953125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.859375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.34375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.078125
+ 
+64 1.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.307698
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.303108
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.301570
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.301907
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.303257
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.303418
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.303145
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302612
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1009/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+eps: 1.0 | pred en %: 9.375
+
+eps: 1.5 | pred en %: 9.375
+
+eps: 2.0 | pred en %: 9.375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.109375
+ 
+64 1.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.301542
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.166145
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.310582
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.722331
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.497671
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.298130
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.238968
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.194550
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.326732
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.235343
+
+Test set super: Average loss: 0.1959,             Accuracy: 9403/10000 (94%)
+
+ 
+accuracy | 0.96875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 96.875
+
+eps: 0.1 | pred en %: 96.875
+
+eps: 0.3 | pred en %: 95.3125
+
+eps: 0.5 | pred en %: 93.75
+
+eps: 0.7 | pred en %: 85.9375
+
+eps: 0.9 | pred en %: 70.3125
+
+eps: 1.0 | pred en %: 42.1875
+
+eps: 1.5 | pred en %: 15.625
+
+eps: 2.0 | pred en %: 15.625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.953125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.859375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.703125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.421875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.15625
+ 
+64 2.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.300942
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302585
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1009/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+eps: 1.0 | pred en %: 9.375
+
+eps: 1.5 | pred en %: 9.375
+
+eps: 2.0 | pred en %: 9.375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.109375
+ 
+64 2.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.319022
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302585
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302585
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.302585
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302585
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.302585
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.302585
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.302585
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.302585
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.302585
+
+Test set super: Average loss: 2.3026,             Accuracy: 1009/10000 (10%)
+
+ 
+accuracy | 0.109375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 9.375
+
+eps: 0.1 | pred en %: 9.375
+
+eps: 0.3 | pred en %: 9.375
+
+eps: 0.5 | pred en %: 9.375
+
+eps: 0.7 | pred en %: 9.375
+
+eps: 0.9 | pred en %: 9.375
+
+eps: 1.0 | pred en %: 9.375
+
+eps: 1.5 | pred en %: 9.375
+
+eps: 2.0 | pred en %: 9.375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.109375
+ 
+72 0.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.315940
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.854476
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.397135
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.107880
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.481505
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.500044
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.380132
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.380225
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.181488
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.130455
+
+Test set super: Average loss: 0.2107,             Accuracy: 9358/10000 (94%)
+
+ 
+accuracy | 0.921875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 92.1875
+
+eps: 0.1 | pred en %: 93.75
+
+eps: 0.3 | pred en %: 93.75
+
+eps: 0.5 | pred en %: 93.75
+
+eps: 0.7 | pred en %: 87.5
+
+eps: 0.9 | pred en %: 78.125
+
+eps: 1.0 | pred en %: 64.0625
+
+eps: 1.5 | pred en %: 4.6875
+
+eps: 2.0 | pred en %: 1.5625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.921875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.78125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.640625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.046875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.015625
+ 
+72 0.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.350413
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.599649
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.957270
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.666964
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.710111
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.203341
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.080262
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.074084
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.244261
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.185665
+
+Test set super: Average loss: 0.1243,             Accuracy: 9656/10000 (97%)
+
+ 
+accuracy | 0.96875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 96.875
+
+eps: 0.1 | pred en %: 96.875
+
+eps: 0.3 | pred en %: 98.4375
+
+eps: 0.5 | pred en %: 93.75
+
+eps: 0.7 | pred en %: 85.9375
+
+eps: 0.9 | pred en %: 81.25
+
+eps: 1.0 | pred en %: 43.75
+
+eps: 1.5 | pred en %: 1.5625
+
+eps: 2.0 | pred en %: 0.0
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.953125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.8125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.4375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.015625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.0
+ 
+72 0.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.351523
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.209899
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.668705
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.540339
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.411416
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.373926
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.390161
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.148608
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.137880
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.075925
+
+Test set super: Average loss: 0.1117,             Accuracy: 9670/10000 (97%)
+
+ 
+accuracy | 1.0
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 100.0
+
+eps: 0.1 | pred en %: 100.0
+
+eps: 0.3 | pred en %: 100.0
+
+eps: 0.5 | pred en %: 100.0
+
+eps: 0.7 | pred en %: 98.4375
+
+eps: 0.9 | pred en %: 96.875
+
+eps: 1.0 | pred en %: 92.1875
+
+eps: 1.5 | pred en %: 7.8125
+
+eps: 2.0 | pred en %: 0.0
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 1.0
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 1.0
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 1.0
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 1.0
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.921875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.078125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.0
+ 
+72 1.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.283725
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.750735
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.783771
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.415460
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.456453
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.533851
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.239607
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.303142
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.287268
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.126729
+
+Test set super: Average loss: 0.3784,             Accuracy: 8582/10000 (86%)
+
+ 
+accuracy | 0.875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 90.625
+
+eps: 0.1 | pred en %: 90.625
+
+eps: 0.3 | pred en %: 89.0625
+
+eps: 0.5 | pred en %: 87.5
+
+eps: 0.7 | pred en %: 84.375
+
+eps: 0.9 | pred en %: 84.375
+
+eps: 1.0 | pred en %: 82.8125
+
+eps: 1.5 | pred en %: 67.1875
+
+eps: 2.0 | pred en %: 10.9375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.890625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.890625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.859375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.828125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.84375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.828125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.671875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.109375
+ 
+72 1.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.388798
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.700323
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.045535
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.795761
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.700826
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.469310
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.529813
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.637443
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.662152
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.358277
+
+Test set super: Average loss: 0.4278,             Accuracy: 8390/10000 (84%)
+
+ 
+accuracy | 0.828125
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 82.8125
+
+eps: 0.1 | pred en %: 81.25
+
+eps: 0.3 | pred en %: 81.25
+
+eps: 0.5 | pred en %: 81.25
+
+eps: 0.7 | pred en %: 76.5625
+
+eps: 0.9 | pred en %: 71.875
+
+eps: 1.0 | pred en %: 65.625
+
+eps: 1.5 | pred en %: 12.5
+
+eps: 2.0 | pred en %: 9.375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.828125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.8125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.8125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.8125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.765625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.71875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.671875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.09375
+ 
+72 1.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.304174
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.413786
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.590192
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.303619
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.480551
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.149036
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.225981
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.330400
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.119246
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.111792
+
+Test set super: Average loss: 0.1507,             Accuracy: 9559/10000 (96%)
+
+ 
+accuracy | 0.96875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 96.875
+
+eps: 0.1 | pred en %: 98.4375
+
+eps: 0.3 | pred en %: 95.3125
+
+eps: 0.5 | pred en %: 92.1875
+
+eps: 0.7 | pred en %: 90.625
+
+eps: 0.9 | pred en %: 89.0625
+
+eps: 1.0 | pred en %: 81.25
+
+eps: 1.5 | pred en %: 15.625
+
+eps: 2.0 | pred en %: 15.625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.953125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.921875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.90625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.890625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.8125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.15625
+ 
+72 1.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.286167
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.403225
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.782388
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.362401
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.338169
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.247213
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.206204
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.202550
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.283110
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.185600
+
+Test set super: Average loss: 0.1820,             Accuracy: 9447/10000 (94%)
+
+ 
+accuracy | 0.96875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 96.875
+
+eps: 0.1 | pred en %: 95.3125
+
+eps: 0.3 | pred en %: 95.3125
+
+eps: 0.5 | pred en %: 89.0625
+
+eps: 0.7 | pred en %: 87.5
+
+eps: 0.9 | pred en %: 68.75
+
+eps: 1.0 | pred en %: 35.9375
+
+eps: 1.5 | pred en %: 9.375
+
+eps: 2.0 | pred en %: 9.375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.953125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.953125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.890625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.6875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.359375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.09375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.09375
+ 
+72 2.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.313245
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.682050
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.777064
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.420403
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.344885
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.292323
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.252708
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.286308
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.303940
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.323812
+
+Test set super: Average loss: 0.2038,             Accuracy: 9372/10000 (94%)
+
+ 
+accuracy | 0.984375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 98.4375
+
+eps: 0.1 | pred en %: 98.4375
+
+eps: 0.3 | pred en %: 95.3125
+
+eps: 0.5 | pred en %: 85.9375
+
+eps: 0.7 | pred en %: 59.375
+
+eps: 0.9 | pred en %: 1.5625
+
+eps: 1.0 | pred en %: 1.5625
+
+eps: 1.5 | pred en %: 1.5625
+
+eps: 2.0 | pred en %: 1.5625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.953125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.84375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.609375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.015625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.015625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.015625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.015625
+ 
+72 2.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.290511
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.249153
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.597435
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.229835
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.708916
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.633564
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.601184
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.403905
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.301713
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.288855
+
+Test set super: Average loss: 0.3325,             Accuracy: 8972/10000 (90%)
+
+ 
+accuracy | 0.90625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 90.625
+
+eps: 0.1 | pred en %: 90.625
+
+eps: 0.3 | pred en %: 81.25
+
+eps: 0.5 | pred en %: 51.5625
+
+eps: 0.7 | pred en %: 1.5625
+
+eps: 0.9 | pred en %: 1.5625
+
+eps: 1.0 | pred en %: 1.5625
+
+eps: 1.5 | pred en %: 1.5625
+
+eps: 2.0 | pred en %: 1.5625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.90625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.890625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.8125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.515625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.015625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.015625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.015625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.015625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.015625
+ 
+80 0.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.335380
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.056538
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.397260
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.229172
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.145267
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.248060
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.158801
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.235228
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.141779
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.196938
+
+Test set super: Average loss: 0.1157,             Accuracy: 9666/10000 (97%)
+
+ 
+accuracy | 1.0
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 100.0
+
+eps: 0.1 | pred en %: 100.0
+
+eps: 0.3 | pred en %: 98.4375
+
+eps: 0.5 | pred en %: 96.875
+
+eps: 0.7 | pred en %: 81.25
+
+eps: 0.9 | pred en %: 26.5625
+
+eps: 1.0 | pred en %: 12.5
+
+eps: 1.5 | pred en %: 0.0
+
+eps: 2.0 | pred en %: 1.5625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 1.0
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 1.0
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.8125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.265625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.0
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.015625
+ 
+80 0.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.291734
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.676566
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 0.605799
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.225127
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.251069
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.108996
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.125260
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.168480
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.082766
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.124107
+
+Test set super: Average loss: 0.1255,             Accuracy: 9617/10000 (96%)
+
+ 
+accuracy | 1.0
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 100.0
+
+eps: 0.1 | pred en %: 100.0
+
+eps: 0.3 | pred en %: 95.3125
+
+eps: 0.5 | pred en %: 90.625
+
+eps: 0.7 | pred en %: 87.5
+
+eps: 0.9 | pred en %: 75.0
+
+eps: 1.0 | pred en %: 56.25
+
+eps: 1.5 | pred en %: 1.5625
+
+eps: 2.0 | pred en %: 0.0
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 1.0
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 1.0
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.953125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.90625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.75
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.5625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.015625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.0
+ 
+80 0.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.299196
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 1.760410
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.015820
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.497916
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.221197
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.234257
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.235745
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.263887
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.112849
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.068375
+
+Test set super: Average loss: 0.1661,             Accuracy: 9528/10000 (95%)
+
+ 
+accuracy | 0.953125
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 93.75
+
+eps: 0.1 | pred en %: 93.75
+
+eps: 0.3 | pred en %: 92.1875
+
+eps: 0.5 | pred en %: 93.75
+
+eps: 0.7 | pred en %: 92.1875
+
+eps: 0.9 | pred en %: 89.0625
+
+eps: 1.0 | pred en %: 85.9375
+
+eps: 1.5 | pred en %: 34.375
+
+eps: 2.0 | pred en %: 4.6875
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.953125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.921875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.921875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.890625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.859375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.34375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.046875
+ 
+80 1.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.302102
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.013528
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.423141
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.913423
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.291417
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.188010
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.141613
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.090359
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.122042
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.055811
+
+Test set super: Average loss: 0.1465,             Accuracy: 9567/10000 (96%)
+
+ 
+accuracy | 0.9375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 93.75
+
+eps: 0.1 | pred en %: 93.75
+
+eps: 0.3 | pred en %: 93.75
+
+eps: 0.5 | pred en %: 93.75
+
+eps: 0.7 | pred en %: 93.75
+
+eps: 0.9 | pred en %: 93.75
+
+eps: 1.0 | pred en %: 90.625
+
+eps: 1.5 | pred en %: 75.0
+
+eps: 2.0 | pred en %: 10.9375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.9375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.90625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.75
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.109375
+ 
+80 1.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.355204
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.078685
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.376490
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 0.976889
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.444511
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.383013
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.157798
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.374264
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.284194
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.148494
+
+Test set super: Average loss: 0.1986,             Accuracy: 9399/10000 (94%)
+
+ 
+accuracy | 0.96875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 96.875
+
+eps: 0.1 | pred en %: 98.4375
+
+eps: 0.3 | pred en %: 95.3125
+
+eps: 0.5 | pred en %: 96.875
+
+eps: 0.7 | pred en %: 92.1875
+
+eps: 0.9 | pred en %: 87.5
+
+eps: 1.0 | pred en %: 85.9375
+
+eps: 1.5 | pred en %: 34.375
+
+eps: 2.0 | pred en %: 1.5625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.984375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.953125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.921875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.859375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.359375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.015625
+ 
+80 1.5
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.312939
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.301759
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.306530
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.298898
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.302668
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.298110
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.305283
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.310157
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.297775
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.255606
+
+Test set super: Average loss: 2.1577,             Accuracy: 2224/10000 (22%)
+
+ 
+accuracy | 0.234375
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 23.4375
+
+eps: 0.1 | pred en %: 23.4375
+
+eps: 0.3 | pred en %: 23.4375
+
+eps: 0.5 | pred en %: 23.4375
+
+eps: 0.7 | pred en %: 21.875
+
+eps: 0.9 | pred en %: 23.4375
+
+eps: 1.0 | pred en %: 20.3125
+
+eps: 1.5 | pred en %: 7.8125
+
+eps: 2.0 | pred en %: 7.8125
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.234375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.234375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.234375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.234375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.21875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.234375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.203125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.078125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.078125
+ 
+80 1.75
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.300297
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.229438
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 1.956250
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.225087
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 1.093554
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.757339
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.601854
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.558674
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.599301
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.314788
+
+Test set super: Average loss: 0.4755,             Accuracy: 8357/10000 (84%)
+
+ 
+accuracy | 0.875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 87.5
+
+eps: 0.1 | pred en %: 89.0625
+
+eps: 0.3 | pred en %: 89.0625
+
+eps: 0.5 | pred en %: 85.9375
+
+eps: 0.7 | pred en %: 81.25
+
+eps: 0.9 | pred en %: 62.5
+
+eps: 1.0 | pred en %: 43.75
+
+eps: 1.5 | pred en %: 1.5625
+
+eps: 2.0 | pred en %: 1.5625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.890625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.890625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.859375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.828125
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.4375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.015625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.015625
+ 
+80 2.0
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.312986
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.260418
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.086139
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 1.041021
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 0.473999
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 0.322638
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 0.306504
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 0.162711
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 0.325284
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 0.134161
+
+Test set super: Average loss: 0.2198,             Accuracy: 9339/10000 (93%)
+
+ 
+accuracy | 0.96875
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 96.875
+
+eps: 0.1 | pred en %: 96.875
+
+eps: 0.3 | pred en %: 90.625
+
+eps: 0.5 | pred en %: 87.5
+
+eps: 0.7 | pred en %: 62.5
+
+eps: 0.9 | pred en %: 10.9375
+
+eps: 1.0 | pred en %: 10.9375
+
+eps: 1.5 | pred en %: 10.9375
+
+eps: 2.0 | pred en %: 10.9375
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.96875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.90625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.875
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.109375
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.109375
+ 
+80 2.25
+ 
+Train Epoch: 0/1 [0/60000 (0%)]	Loss: 2.299264
+Train Epoch: 0/1 [6400/60000 (11%)]	Loss: 2.302980
+Train Epoch: 0/1 [12800/60000 (21%)]	Loss: 2.302339
+Train Epoch: 0/1 [19200/60000 (32%)]	Loss: 2.307463
+Train Epoch: 0/1 [25600/60000 (43%)]	Loss: 2.292475
+Train Epoch: 0/1 [32000/60000 (53%)]	Loss: 2.308141
+Train Epoch: 0/1 [38400/60000 (64%)]	Loss: 2.305010
+Train Epoch: 0/1 [44800/60000 (75%)]	Loss: 2.305074
+Train Epoch: 0/1 [51200/60000 (85%)]	Loss: 2.307603
+Train Epoch: 0/1 [57600/60000 (96%)]	Loss: 2.309401
+
+Test set super: Average loss: 2.3016,             Accuracy: 1135/10000 (11%)
+
+ 
+accuracy | 0.15625
+
+epsilons
+[0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.5, 2.0]
+
+eps: 0.0 | pred en %: 15.625
+
+eps: 0.1 | pred en %: 15.625
+
+eps: 0.3 | pred en %: 15.625
+
+eps: 0.5 | pred en %: 15.625
+
+eps: 0.7 | pred en %: 15.625
+
+eps: 0.9 | pred en %: 15.625
+
+eps: 1.0 | pred en %: 15.625
+
+eps: 1.5 | pred en %: 15.625
+
+eps: 2.0 | pred en %: 15.625
+
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.0 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.1 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.3 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.5 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.7 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 0.9 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.0 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 1.5 0.15625
+LinfBasicIterativeAttack(rel_stepsize=0.2, abs_stepsize=None, steps=10, random_start=False) 2.0 0.15625
+ 

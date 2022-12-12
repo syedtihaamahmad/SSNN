@@ -23,12 +23,12 @@ epochs = 1
 #The values in the lists are the one we use as combinations
 
 #vth values
-#v_thh=[0.25,0.5,0.75,1.0,1.25,1.5,1.75,2.0,2.25]
-v_thh=[0.25]
+v_thh=[0.25,0.5,0.75]
+#v_thh=[0.25]
 
 #T values
-# TT = [32,40,48,56,64,72,80]
-TT = [80]
+TT = [40,48,56,64,72,80]
+#TT = [80]
 
 
 #We recommend using a GPU as applying the attack to the SNN model takes a lot of time
@@ -44,7 +44,7 @@ batchsize = 64
 transform = transforms.Compose(
     [transforms.Resize(32),
      transforms.ToTensor(),
-     torchvision.transforms.Normalize((0.1307,), (0.3081,))])
+     torchvision.transforms.Normalize(0,1)])
 
 trainset = torchvision.datasets.MNIST(root='./data', train=True,
                                         download=True, transform=transform)
@@ -83,6 +83,7 @@ class ConvvNet4(torch.nn.Module):
         self, device, num_channels=1, feature_size=32, method="super", dtype=torch.float
     ):
         super(ConvvNet4, self).__init__()
+        self.quant = torch.quantization.QuantStub()
         self.features = int(((feature_size - 4) / 2 - 4) / 2)
 
         self.conv1 = torch.nn.Conv2d(1, 6, kernel_size=5, stride=1)
@@ -96,7 +97,7 @@ class ConvvNet4(torch.nn.Module):
         self.lif2 = LIFFeedForwardCell(p=LIFParameters(method=method, alpha=100.0))
         self.lif3 = LIFFeedForwardCell(p=LIFParameters(method=method, alpha=100.0))
         self.out = LICell(84, 10)
-
+        self.dequant = torch.quantization.DeQuantStub()
         self.device = device
         self.dtype = dtype
 
@@ -116,19 +117,32 @@ class ConvvNet4(torch.nn.Module):
         )
 
         for ts in range(seq_length):
+            x = self.quant(x)
             z = self.conv1(x[ts, :])
+            x = self.dequant(x)
+            z = self.dequant(z)
+
             z, s0 = self.lif0(z, s0)
             z = torch.nn.functional.max_pool2d(torch.nn.functional.relu(z), 2, 2)
-            z = 10 * self.conv2(z)
+            z = self.quant(z)
+            z =  self.conv2(z)
+            z = self.dequant(z)
+            z=10*z
             z, s1 = self.lif1(z, s1)
             z = torch.nn.functional.max_pool2d(torch.nn.functional.relu(z), 2, 2)
-            z = 10 * self.conv3(z)
+            z = self.quant(z)
+            z =  self.conv3(z)
+            z = self.dequant(z)
+            z=10*z
             z, s2 = self.lif2(z, s2)
             z = torch.nn.functional.relu(z)
 #           z = z.view(-1, 16*5*5)
             z = torch.flatten(z, 1)
+            z = self.quant(z)
             z = self.fc1(z)
+            z = self.dequant(z)
             z, s3 = self.lif3(z, s3)
+            
             v, so = self.out(torch.nn.functional.relu(z), so)
             voltages[ts, :, :] = v
         return voltages
@@ -164,19 +178,38 @@ def train(model, device, train_loader, optimizer, epoch, writer=None):
             )
 
         losses.append(loss.item())
-
+    
     mean_loss = np.mean(losses)
     return losses, mean_loss
 
 
 def test(model, device, test_loader, epoch, writer=None):
+    
+    #model.load_state_dict(torch.load('weights.pt'))
     model.eval()
+
+    device=torch.device("cpu")
+    model.to(device)
+    model.qconfig = torch.quantization.get_default_qconfig('fbgemm')
+
+    # Fuse the activations to preceding layers, where applicable.
+    # This needs to be done manually depending on the model architecture.
+    # Common fusions include `conv + relu` and `conv + batchnorm + relu`
+    #model_fp32_fused = torch.quantization.fuse_modules(model, [['rsnn']])
+
+    # Prepare the model for static quantization. This inserts observers in
+    # the model that will observe activation tensors during calibration.
+    model_fp32_prepared = torch.quantization.prepare(model)
+    
+     
     test_loss = 0
     correct = 0
     with torch.no_grad():
         for data, target in test_loader:
-            data, target = data.to(device), target.to(device)
-            output = model(data)
+            data, target = data.to(device), target.to(torch.device("cuda"))
+            model_fp32_prepared(data)
+            model_int8 = torch.quantization.convert(model_fp32_prepared)
+            output = model_int8(data)
             test_loss += torch.nn.functional.nll_loss(
                 output, target, reduction="sum"
             ).item()  # sum up batch loss
@@ -281,13 +314,13 @@ def benchmark():
         print("")
 
 
-for i in range(len(TT)):
+for k in range(len(TT)):
     for j in range(len(v_thh)):
-
-        print(TT[i],v_thh[j])
+        #print(k,j)
+        print(TT[k],v_thh[j])
         print(" ")
 
-        T = TT[i]
+        T = TT[k]
         v = v_thh[j]
 
         model = LIFConvNet(
@@ -307,6 +340,8 @@ for i in range(len(TT)):
 
         for epoch in range(epochs):
                 training_loss, mean_loss = train(model, device, train_loader, optimizer, epoch)
+                torch.save(model.state_dict(), 'weights'+TT[k]+v_thh[j]+'.pt')
+
                 test_loss, taccuracy = test(model, device, test_loader, epoch)
 
                 training_losses += training_loss
@@ -325,7 +360,7 @@ for i in range(len(TT)):
         images = images.to(device)
         labels = labels.to(device)
 
-        print(model)
+        #print(model)
 
         fmodel = fb.PyTorchModel(model, bounds=(0, 1))
 
@@ -336,28 +371,13 @@ for i in range(len(TT)):
 
         attacks = [fb.attacks.PGD()]
 
-        epsilons = [
+        epsilons =[
             0.0,
             0.1,
-            0.2,
             0.3,
-            0.4,
             0.5,
-            0.6,
             0.7,
-            0.8,
-            0.9,
-            1.0,
-            1.1,
-            1.2,
-            1.3,
-            1.4,
-            1.5,
-            1.6,
-            1.7,
-            1.8,
-            1.9,
-            2.0,
+            0.9
         ]
 
         print("epsilons")
